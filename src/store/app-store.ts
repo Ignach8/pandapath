@@ -25,6 +25,7 @@ type State = {
   sound: boolean;
   haptics: boolean;
   showPinyin: boolean;
+  showTranslation: boolean;
   slowTts: boolean;
   xp: number;
   gems: number;
@@ -41,7 +42,7 @@ type State = {
   setLang: (l: Lang) => void;
   finishOnboarding: (p: { courseId: string; goal: number }) => void;
   setCourse: (id: string) => void;
-  set: (p: Partial<Pick<State, "dailyGoal" | "sound" | "haptics" | "showPinyin" | "slowTts">>) => void;
+  set: (p: Partial<Pick<State, "dailyGoal" | "sound" | "haptics" | "showPinyin" | "showTranslation" | "slowTts">>) => void;
   refreshHearts: () => void;
   loseHeart: () => void;
   refillHearts: () => boolean;
@@ -70,6 +71,7 @@ const initial = {
   sound: true,
   haptics: true,
   showPinyin: true,
+  showTranslation: true,
   slowTts: false,
   xp: 0,
   gems: 20,

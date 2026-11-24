@@ -8,6 +8,7 @@ import { useListen } from "@/lib/use-listen";
 import { useApp } from "@/store/app-store";
 import { colors } from "@/theme";
 import { SpeakButton } from "../speak-button";
+import { Tr } from "../tr-text";
 import { Button } from "../ui";
 import type { ExProps } from "./types";
 
@@ -59,6 +60,7 @@ export function Speak({ ex, auto }: ExProps<SP>) {
         <Text style={[s.text, ex.lang !== "zh-CN" && { fontSize: 24, lineHeight: 32 }]}>{ex.text}</Text>
         {ex.sub && (showPinyin || ex.lang !== "zh-CN") ? <Text style={s.sub}>{ex.sub}</Text> : null}
         {ex.meaning ? <Text style={s.meaning}>{ex.meaning}</Text> : null}
+        {ex.lang === "en-US" ? <Tr en={ex.text} /> : null}
         <SpeakButton text={ex.text} lang={ex.lang} size={56} />
       </View>
 

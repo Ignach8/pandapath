@@ -11,7 +11,7 @@ import { useApp } from "@/store/app-store";
 import { colors, unitColors } from "@/theme";
 
 export function CourseMap({ courseId }: { courseId: string }) {
-  const { t, l } = useT();
+  const { t, l, tl } = useT();
   const course = getCourse(courseId);
   const units = getUnits(courseId);
   const flat = flatLessons(courseId);
@@ -64,7 +64,7 @@ export function CourseMap({ courseId }: { courseId: string }) {
                   </Text>
                   {u.subtitle ? (
                     <Text style={s.sub} numberOfLines={1}>
-                      {u.subtitle}
+                      {tl(u.subtitle)}
                     </Text>
                   ) : null}
                 </View>

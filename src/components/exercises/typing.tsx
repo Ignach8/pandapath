@@ -1,15 +1,18 @@
 import { useEffect, useState } from "react";
 import { StyleSheet, Text, TextInput, View } from "react-native";
 import type { Ex } from "@/content/types";
+import { useT } from "@/i18n";
 import { normEn } from "@/lib/pinyin";
 import { colors } from "@/theme";
 import { SpeakButton } from "../speak-button";
+import { Tr } from "../tr-text";
 import type { ExProps } from "./types";
 
 type T = Extract<Ex, { t: "type" }>;
 
 /** Completar palabras (TOEFL «Complete the Words») o escribir la palabra que falta. */
 export function Typing({ ex, locked, bind }: ExProps<T>) {
+  const { ti } = useT();
   const [text, setText] = useState("");
 
   useEffect(() => {
@@ -26,7 +29,7 @@ export function Typing({ ex, locked, bind }: ExProps<T>) {
 
   return (
     <View style={{ gap: 16 }}>
-      <Text style={s.prompt}>{ex.stem}</Text>
+      <Text style={s.prompt}>{ti(ex.stem)}</Text>
       {ex.say && <SpeakButton text={ex.say.text} lang={ex.say.lang} size={52} />}
       <View style={s.line}>
         <Text style={s.fixed}>{ex.before}</Text>
@@ -45,6 +48,8 @@ export function Typing({ ex, locked, bind }: ExProps<T>) {
         />
         <Text style={s.fixed}>{ex.after}</Text>
       </View>
+      <Tr en={`${ex.before ?? ""}${ex.ans[0]}${ex.after ?? ""}`} />
+      <Tr en={`${ex.before ?? ""}___${ex.after ?? ""}`} />
     </View>
   );
 }

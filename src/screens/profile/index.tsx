@@ -85,6 +85,7 @@ export function Profile() {
           </View>
 
           <Toggle label={t("show_pinyin")} value={app.showPinyin} onChange={(v) => app.set({ showPinyin: v })} />
+          <Toggle label={t("show_translation")} value={app.showTranslation} onChange={(v) => app.set({ showTranslation: v })} />
           <Toggle label={t("sound_fx")} value={app.sound} onChange={(v) => app.set({ sound: v })} />
           <Toggle label={t("haptics")} value={app.haptics} onChange={(v) => app.set({ haptics: v })} />
         </Card>

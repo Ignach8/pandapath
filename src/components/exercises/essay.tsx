@@ -5,6 +5,7 @@ import { useT } from "@/i18n";
 import { useListen } from "@/lib/use-listen";
 import { colors } from "@/theme";
 import { SpeakButton } from "../speak-button";
+import { Tr, TrFold } from "../tr-text";
 import { Button } from "../ui";
 import type { ExProps } from "./types";
 
@@ -14,7 +15,7 @@ const countWords = (s: string) => (s.trim() ? s.trim().split(/\s+/).length : 0);
 
 /** Redacción y entrevista del TOEFL: escribe (o dicta), recibe una revisión automática y compara con un modelo. */
 export function Essay({ ex, locked, bind }: ExProps<ES>) {
-  const { t } = useT();
+  const { t, tl } = useT();
   const [text, setText] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const base = useRef("");
@@ -30,14 +31,15 @@ export function Essay({ ex, locked, bind }: ExProps<ES>) {
 
   const words = countWords(text);
   const enough = words >= Math.min(ex.minWords, 8);
-  const checks = ex.checks.map((c) => ({ label: c.label, ok: new RegExp(c.re, "im").test(text) }));
+  const checks = ex.checks.map((c) => ({ label: tl(c.label), ok: new RegExp(c.re, "im").test(text) }));
 
   return (
     <ScrollView contentContainerStyle={{ gap: 14, paddingBottom: 24 }} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
-      <Text style={s.kind}>{ex.kind === "email" ? "Write an Email" : ex.kind === "discussion" ? "Write for an Academic Discussion" : "Take an Interview"}</Text>
+      <Text style={s.kind}>{ex.kind === "email" ? t("task_email") : ex.kind === "discussion" ? t("task_discussion") : t("task_interview")}</Text>
       <View style={s.prompt}>
         <Text style={s.promptText}>{ex.stem}</Text>
-        {ex.context ? <Text style={s.context}>{ex.context}</Text> : null}
+        <Tr en={ex.stem} />
+        {ex.context ? <Text style={s.context}>{tl(ex.context)}</Text> : null}
         <SpeakButton text={ex.stem} lang="en-US" size={44} slowToo={false} />
       </View>
       <TextInput
@@ -83,6 +85,7 @@ export function Essay({ ex, locked, bind }: ExProps<ES>) {
           <View style={[s.box, { backgroundColor: colors.bambooSoft, borderColor: colors.bamboo }]}>
             <Text style={s.boxTitle}>{t("ex_model")}</Text>
             <Text style={s.model}>{ex.model}</Text>
+            <TrFold en={ex.model} />
             <SpeakButton text={ex.model} lang="en-US" size={44} />
           </View>
         </View>

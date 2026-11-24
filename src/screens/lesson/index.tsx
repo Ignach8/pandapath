@@ -22,7 +22,7 @@ const wordIdsOf = (ex: Ex): string[] => {
 };
 
 export function LessonScreen({ lessonId }: { lessonId: string }) {
-  const { t, lang } = useT();
+  const { t, lang, tr } = useT();
   const app = useApp();
   const practice = lessonId === "review" || lessonId.startsWith("drill:");
 
@@ -191,10 +191,10 @@ export function LessonScreen({ lessonId }: { lessonId: string }) {
             </Text>
             {!good && result?.correct ? (
               <Text style={[s.fbBody, { color: colors.redDark }]}>
-                {t("correct_answer")} {result.correct}
+                {t("correct_answer")} {result.correct}{tr(result.correct) ? `\n${tr(result.correct)}` : ""}
               </Text>
             ) : null}
-            {result?.note ? <Text style={[s.fbBody, { color: good ? colors.bambooDark : colors.redDark }]}>{result.note}</Text> : null}
+            {result?.note ? <Text style={[s.fbBody, { color: good ? colors.bambooDark : colors.redDark }]}>{result.note}{tr(result.note) ? `\n${tr(result.note)}` : ""}</Text> : null}
             <Button tone={good ? "primary" : "danger"} label={t("cont")} onPress={onContinue} />
           </View>
         )}

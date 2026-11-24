@@ -142,7 +142,7 @@ const exMatch = (ws: Word[], c: Ctx): Ex => ({
   wordIds: ws.map((w) => w.id),
 });
 
-const exTraces = (w: Word, max = 2): Ex[] => {
+const exTraces = (w: Word, lang: Lang, max = 2): Ex[] => {
   const chars = [...w.h].filter((ch) => isHan(ch) && hasCharData(ch));
   const syl = syllables(w.p);
   const all = [...w.h].filter(isHan);
@@ -150,7 +150,7 @@ const exTraces = (w: Word, max = 2): Ex[] => {
     t: "trace",
     ch,
     pinyin: syl.length === all.length ? syl[all.indexOf(ch)] : w.p,
-    meaning: loc(w.m, "en"),
+    meaning: loc(w.m, lang),
     wordId: w.id,
   }));
 };
@@ -224,7 +224,7 @@ const hskRecipe = (unit: Unit, kind: LessonKind, c: Ctx): Ex[] => {
         ...(ss.length ? compact([exSentenceMc(pickOne(ss), ss, c)]) : []),
       ];
     case "write": {
-      const traces = ws.flatMap((w) => exTraces(w, 1)).slice(0, 4);
+      const traces = ws.flatMap((w) => exTraces(w, c.lang, 1)).slice(0, 4);
       const banks = compact(ws.filter((w) => [...w.h].length >= 2).slice(0, 3).map((w) => exHanziBank(w, c)));
       const sb = compact(sample(ss, 3).map((s) => exSentenceBank(s, ss, c)));
       const fill = traces.length + banks.length + sb.length < 4 ? sample(ws, 4).map((w) => exHanzi(w, c)) : [];
@@ -248,7 +248,7 @@ const hskRecipe = (unit: Unit, kind: LessonKind, c: Ctx): Ex[] => {
         exMatch(sample(ws, 5), c),
         ...compact([exPinyinBank(pickOne(ws), c)]),
         ...(ss.length ? compact([exSentenceBank(pickOne(ss), ss, c)]) : []),
-        ...ws.flatMap((w) => exTraces(w, 1)).slice(0, 1),
+        ...ws.flatMap((w) => exTraces(w, c.lang, 1)).slice(0, 1),
       ]);
   }
 };
@@ -269,7 +269,7 @@ const vocabRecipe = (unit: Unit, kind: LessonKind, c: Ctx): Ex[] => {
       say: { text: w.h, lang: E, auto: true },
       opts: opts.map((x) => ({ label: loc(x.m, c.lang) })),
       ans,
-      why: `${w.h} ${w.p} — ${loc(w.m, "en")}`,
+      why: `${w.h} ${w.p} — ${loc(w.m, c.lang)}`,
       wordId: w.id,
       big: true,
     };
@@ -363,7 +363,7 @@ const wordsMix = (words: Word[], style: "review" | "listen" | "tones" | "speak" 
     case "speak":
       return words.map((w) => exSpeak(w, c));
     case "write": {
-      const traces = words.flatMap((w) => exTraces(w, 1)).slice(0, 6);
+      const traces = words.flatMap((w) => exTraces(w, c.lang, 1)).slice(0, 6);
       const banks = compact(words.map((w) => exHanziBank(w, c))).slice(0, 4);
       return [...traces, ...banks, ...words.slice(0, Math.max(0, 8 - traces.length - banks.length)).map((w) => exHanzi(w, c))];
     }

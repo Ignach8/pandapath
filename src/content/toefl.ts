@@ -229,9 +229,9 @@ let cached: Unit[] | null = null;
 export const getToeflUnits = (): Unit[] => {
   if (cached) return cached;
   const vocabLessons = (n: number): LessonDef[] => [
-    lesson(`toefl-u${n}-learn`, "learn", { en: "New words" }),
-    lesson(`toefl-u${n}-listen`, "listen", { en: "Listen" }),
-    lesson(`toefl-u${n}-test`, "test", { en: "Review" }),
+    lesson(`toefl-u${n}-learn`, "learn", { en: "New words", es: "Palabras nuevas", zh: "新单词" }),
+    lesson(`toefl-u${n}-listen`, "listen", { en: "Listen", es: "Escucha", zh: "听力" }),
+    lesson(`toefl-u${n}-test`, "test", { en: "Review", es: "Repaso", zh: "复习" }),
   ];
 
   cached = [
@@ -250,64 +250,64 @@ export const getToeflUnits = (): Unit[] => {
       ],
     }),
     u(2, "reading", "📖", { es: "Lectura: palabras y vida diaria", en: "Reading: words & daily life", zh: "阅读：补全单词与日常文本" }, "Complete the Words · Read in Daily Life", [
-      lesson("toefl-u2-l1", "reading", { en: "Complete the Words" }, completeWords),
-      lesson("toefl-u2-l2", "reading", { en: "Read in Daily Life: notice" }, [
+      lesson("toefl-u2-l1", "reading", { en: "Complete the Words", es: "Completar palabras", zh: "补全单词" }, completeWords),
+      lesson("toefl-u2-l2", "reading", { en: "Read in Daily Life: notice", es: "Leer en la vida diaria: aviso", zh: "日常阅读：通知" }, [
         mc("What is the main purpose of the notice?", ["To announce new parking rules", "To advertise free evening classes", "To ask for volunteers", "To report a schedule change"], 1, "The notice opens by announcing free evening classes.", { passage: { title: "Notice", text: NOTICE } }),
         mc("What must people do to register?", ["Call the center on Friday", "Pay $15 online", "Go to the front desk and bring ID", "Attend the first class"], 2, "Registration is at the front desk, and a valid ID is required.", { passage: { title: "Notice", text: NOTICE } }),
         mc("Which class does NOT require a materials fee?", ["Beginner cooking", "Digital photography", "English conversation practice", "All of them"], 2, "The $15 fee applies only to cooking and photography.", { passage: { title: "Notice", text: NOTICE } }),
       ]),
-      lesson("toefl-u2-l3", "reading", { en: "Read in Daily Life: email" }, [
+      lesson("toefl-u2-l3", "reading", { en: "Read in Daily Life: email", es: "Leer en la vida diaria: correo", zh: "日常阅读：电子邮件" }, [
         mc("Why is Maya writing to the professor?", ["To complain about the lab", "To explain an absence and ask for help", "To change her major", "To ask for a longer deadline"], 1, "She will miss the lab and wants to collect the lab sheet.", { passage: { title: "Email", text: EMAIL } }),
         mc("What does Maya suggest?", ["Doing the lab on Saturday", "Visiting office hours on Friday", "Sending a friend", "Skipping the data analysis"], 1, "She asks to come to office hours on Friday.", { passage: { title: "Email", text: EMAIL } }),
       ]),
     ]),
     u(3, "listening", "🎧", { es: "Escucha: respuestas y conversación", en: "Listening: responses & conversation", zh: "听力：应答与对话" }, "Listen and Choose a Response · Listen to a Conversation", [
-      lesson("toefl-u3-l1", "listening", { en: "Listen and Choose a Response" }, [
+      lesson("toefl-u3-l1", "listening", { en: "Listen and Choose a Response", es: "Escuchar y elegir una respuesta", zh: "听后选择应答" }, [
         respond("Excuse me, do you know when the next shuttle to campus leaves?", "It leaves in about ten minutes.", ["I walked to campus yesterday.", "The shuttle is very comfortable.", "Yes, I know the driver."]),
         respond("I can't believe the library is closing early today.", "Me neither. Should we study at the café instead?", ["I borrowed three books.", "It is on the second floor.", "Yes, it opens at nine."]),
         respond("Would you mind if I opened the window?", "Not at all, it's a bit warm in here.", ["I opened it yesterday.", "The window is new.", "Yes, I would like some water."]),
         respond("How did your presentation go?", "Better than I expected, thanks.", ["I presented it on a screen.", "It is about biology.", "At two o'clock."]),
         respond("Have you finished the lab report yet?", "Almost. I just need to write the conclusion.", ["The lab is closed on Sunday.", "I reported it to the office.", "No, I don't like labs."]),
       ]),
-      lesson("toefl-u3-l2", "listening", { en: "Listen to a Conversation" }, [
+      lesson("toefl-u3-l2", "listening", { en: "Listen to a Conversation", es: "Escuchar una conversación", zh: "听对话" }, [
         mc("Why does the student visit the office?", ["To pay a fine", "To get a parking permit", "To change dorms", "To ask about a bus route"], 1, "He says he is there about a parking permit.", { say: sayHidden(CONVO) }),
         mc("What is true about the Zone B permit?", ["It is free for commuters", "It costs $120 per semester", "It is only for dorm residents", "It must be paid in person"], 1, "Zone B costs one hundred twenty dollars for the semester, payable online.", { say: sayHidden(CONVO) }),
         mc("When can the student pick up the permit?", ["Today", "Tomorrow morning", "Next week", "After the semester"], 1, "The system updates overnight.", { say: sayHidden(CONVO) }),
       ]),
     ]),
     u(4, "writing", "✍️", { es: "Escritura: oraciones y correo", en: "Writing: sentences & email", zh: "写作：造句与邮件" }, "Build a Sentence · Write an Email", [
-      lesson("toefl-u4-l1", "writing", { en: "Build a Sentence" }, BUILD),
-      lesson("toefl-u4-l2", "writing", { en: "Write an Email" }, [EMAIL_TASK]),
+      lesson("toefl-u4-l1", "writing", { en: "Build a Sentence", es: "Armar una oración", zh: "组句" }, BUILD),
+      lesson("toefl-u4-l2", "writing", { en: "Write an Email", es: "Escribir un correo", zh: "写电子邮件" }, [EMAIL_TASK]),
     ]),
     u(5, "speaking", "🗣️", { es: "Habla: repetir y entrevista", en: "Speaking: repeat & interview", zh: "口语：跟读与面试" }, "Listen and Repeat · Take an Interview", [
-      lesson("toefl-u5-l1", "speaking", { en: "Listen and Repeat" }, REPEAT),
-      lesson("toefl-u5-l2", "speaking", { en: "Take an Interview" }, INTERVIEW),
+      lesson("toefl-u5-l1", "speaking", { en: "Listen and Repeat", es: "Escuchar y repetir", zh: "听后复述" }, REPEAT),
+      lesson("toefl-u5-l2", "speaking", { en: "Take an Interview", es: "Hacer una entrevista", zh: "面试" }, INTERVIEW),
     ]),
     u(6, "reading", "🔬", { es: "Lectura académica", en: "Academic reading", zh: "学术阅读" }, "Read an Academic Passage", [
-      lesson("toefl-u6-l1", "reading", { en: "The waggle dance" }, [
+      lesson("toefl-u6-l1", "reading", { en: "The waggle dance", es: "La danza de las abejas", zh: "蜜蜂的摇摆舞" }, [
         mc("What does the length of the straight section of the dance indicate?", ["The type of flower", "The distance to the food", "The number of bees needed", "The time of day"], 1, "The passage says the length of that section shows the distance.", { passage: { title: "Honeybees", text: BEES } }),
         mc('The word "forager" in the passage is closest in meaning to a bee that', ["builds the honeycomb", "searches for food", "guards the hive", "produces honey"], 1, "A forager finds nectar and returns to the hive.", { passage: { title: "Honeybees", text: BEES } }),
         mc("What can be inferred from the experiments with feeding stations?", ["Bees prefer moving food", "The dance passes on accurate information", "Bees ignore the sun", "Only some bees can dance"], 1, "Nestmates arrived at the correct places after the stations were moved.", { passage: { title: "Honeybees", text: BEES } }),
       ]),
-      lesson("toefl-u6-l2", "reading", { en: "Urban heat islands" }, [
+      lesson("toefl-u6-l2", "reading", { en: "Urban heat islands", es: "Islas de calor urbanas", zh: "城市热岛" }, [
         mc("What is the main idea of the passage?", ["Trees are expensive to plant", "Cities are warmer than nearby rural areas for several reasons, and planners can reduce the effect", "Air conditioning should be banned", "Wind always cools cities"], 1, "The passage explains causes and then solutions.", { passage: { title: "Urban heat", text: HEAT } }),
         mc("Why do asphalt surfaces make cities hotter?", ["They block the wind", "They absorb sunlight and release heat slowly", "They reduce plant growth", "They reflect sunlight"], 1, "They absorb sunlight and release it as heat after sunset.", { passage: { title: "Urban heat", text: HEAT } }),
         mc('The word "offset" in the passage is closest in meaning to', ["increase", "balance out", "delay", "measure"], 1, "Savings in energy can balance out the cost.", { passage: { title: "Urban heat", text: HEAT } }),
       ]),
     ]),
     u(7, "listening", "📢", { es: "Escucha: anuncio y charla", en: "Listening: announcement & talk", zh: "听力：通知与讲座" }, "Listen to an Announcement · Listen to an Academic Talk", [
-      lesson("toefl-u7-l1", "listening", { en: "Announcement" }, [
+      lesson("toefl-u7-l1", "listening", { en: "Announcement", es: "Anuncio", zh: "通知" }, [
         mc("What is the announcement mainly about?", ["A new shuttle fare", "A change in the shuttle route", "A bookstore sale", "A road race"], 1, "Route 4 will use Fifth Avenue because of construction.", { say: sayHidden(ANNOUNCE) }),
         mc("Where should students board instead of the science building stop?", ["In front of the library", "Beside the bookstore", "On Maple Street", "At the main gate"], 1, "The new stop is beside the bookstore.", { say: sayHidden(ANNOUNCE) }),
       ]),
-      lesson("toefl-u7-l2", "listening", { en: "Academic talk" }, [
+      lesson("toefl-u7-l2", "listening", { en: "Academic talk", es: "Charla académica", zh: "学术讲座" }, [
         mc("What is the talk mainly about?", ["How animals use camouflage", "How insects communicate", "Why animals migrate", "How skin heals"], 0, "The speaker introduces camouflage in animals.", { say: sayHidden(TALK) }),
         mc("Why does the professor mention the stick insect?", ["To show an animal that resembles its surroundings", "To explain a hormone", "To compare it with the cuttlefish's speed", "To describe an endangered species"], 0, "It looks almost exactly like a twig.", { say: sayHidden(TALK) }),
         mc("Why do scientists think the cuttlefish's skin changes are controlled by the nervous system?", ["Hormones would work too slowly", "The skin has no color", "Cuttlefish cannot sense light", "It happens only at night"], 0, "The change happens within a second, too fast for hormones.", { say: sayHidden(TALK) }),
       ]),
     ]),
     u(8, "writing", "💬", { es: "Escritura: discusión académica", en: "Writing: academic discussion", zh: "写作：学术讨论" }, "Write for an Academic Discussion", [
-      lesson("toefl-u8-l1", "writing", { en: "Academic discussion" }, [DISCUSSION_TASK]),
+      lesson("toefl-u8-l1", "writing", { en: "Academic discussion", es: "Discusión académica", zh: "学术讨论" }, [DISCUSSION_TASK]),
     ]),
     u(9, "vocab", "🧠", { es: "Vocabulario académico 2", en: "Academic vocabulary 2", zh: "学术词汇 2" }, "derive · estimate · indicate", vocabLessons(9), {
       words: VOCAB_2,
@@ -324,8 +324,8 @@ export const getToeflUnits = (): Unit[] => {
       ],
     }),
     u(10, "speaking", "🎤", { es: "Habla: simulacro", en: "Speaking: mock round", zh: "口语：模拟练习" }, "Listen and Repeat · Take an Interview", [
-      lesson("toefl-u10-l1", "speaking", { en: "Listen and Repeat" }, REPEAT.slice().reverse()),
-      lesson("toefl-u10-l2", "speaking", { en: "Take an Interview" }, INTERVIEW.slice().reverse()),
+      lesson("toefl-u10-l1", "speaking", { en: "Listen and Repeat", es: "Escuchar y repetir", zh: "听后复述" }, REPEAT.slice().reverse()),
+      lesson("toefl-u10-l2", "speaking", { en: "Take an Interview", es: "Hacer una entrevista", zh: "面试" }, INTERVIEW.slice().reverse()),
     ]),
   ];
   return cached;

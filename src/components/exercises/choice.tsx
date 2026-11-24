@@ -6,12 +6,13 @@ import { buzz, speak } from "@/lib/audio";
 import { useApp } from "@/store/app-store";
 import { colors } from "@/theme";
 import { SpeakButton } from "../speak-button";
+import { Tr, TrFold } from "../tr-text";
 import type { ExProps } from "./types";
 
 type MC = Extract<Ex, { t: "mc" }>;
 
 export function Choice({ ex, locked, bind }: ExProps<MC>) {
-  const { t } = useT();
+  const { t, ti } = useT();
   const showPinyin = useApp((s) => s.showPinyin);
   const [sel, setSel] = useState<number | null>(null);
 
@@ -30,9 +31,12 @@ export function Choice({ ex, locked, bind }: ExProps<MC>) {
         <View style={s.passage}>
           {ex.passage.title ? <Text style={s.passTitle}>{ex.passage.title}</Text> : null}
           <Text style={s.passText}>{ex.passage.text}</Text>
+          <TrFold en={ex.passage.text} />
         </View>
       )}
-      <Text style={s.prompt}>{ex.big ? t("ex_pick_meaning") : ex.stem}</Text>
+      <Text style={s.prompt}>{ex.big ? t("ex_pick_meaning") : ti(ex.stem)}</Text>
+      {!ex.big && !ex.say?.hideText ? <Tr en={ex.stem} /> : null}
+      {ex.say?.hideText && ex.say.lang === "en-US" ? <TrFold en={ex.say.text} /> : null}
       <View style={s.stemRow}>
         {ex.say && <SpeakButton text={ex.say.text} lang={ex.say.lang} size={hidden ? 76 : 52} />}
         {!hidden && ex.big && (
@@ -63,6 +67,7 @@ export function Choice({ ex, locked, bind }: ExProps<MC>) {
               <Text style={[s.optNum, picked && { color: colors.skyDark }]}>{i + 1}</Text>
               <View style={{ flex: 1 }}>
                 <Text style={[s.optText, /[一-鿿]/.test(o.label) && { fontSize: 24 }]}>{o.label}</Text>
+                <Tr en={o.label} style={{ fontSize: 13, marginTop: 2 }} />
                 {o.sub && showPinyin ? <Text style={s.optSub}>{o.sub}</Text> : null}
               </View>
             </Pressable>

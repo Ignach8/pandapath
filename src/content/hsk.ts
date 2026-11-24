@@ -14,12 +14,15 @@ const LOADERS: Record<number, () => Raw[]> = {
 };
 
 const GLOSS = require("./gloss-es.json") as GlossFile;
+/** Glosas en español de HSK 3–9, indexadas por "hanzi|pinyin" (un mismo hanzi puede tener varias lecturas). */
+const GLOSS_HI = require("./gloss-es-hsk3-9.json") as Record<string, string>;
 const levelCache: Record<number, Word[]> = {};
 
 export const getLevelWords = (level: number): Word[] => {
   levelCache[level] ??= LOADERS[level]().map((r) => {
     const m: L = { en: GLOSS._en?.[r.h] ?? r.m };
-    if (GLOSS[r.h]) m.es = GLOSS[r.h];
+    const es = GLOSS_HI[`${r.h}|${r.p}`] ?? GLOSS[r.h];
+    if (es) m.es = es;
     return { id: r.h, h: r.h, p: r.p, m, pos: r.pos, level };
   });
   return levelCache[level];

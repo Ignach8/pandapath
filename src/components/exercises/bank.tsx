@@ -6,6 +6,7 @@ import { buzz, speak } from "@/lib/audio";
 import { shuffle } from "@/lib/rand";
 import { colors } from "@/theme";
 import { SpeakButton } from "../speak-button";
+import { Tr } from "../tr-text";
 import type { ExProps } from "./types";
 
 type B = Extract<Ex, { t: "bank" }>;
@@ -47,6 +48,7 @@ export function Bank({ ex, locked, bind }: ExProps<B>) {
     <View style={{ gap: 16 }}>
       <Text style={s.prompt}>{prompt}</Text>
       {ex.say ? <SpeakButton text={ex.say.text} lang={ex.say.lang} size={64} /> : <Text style={s.stem}>{ex.stem}</Text>}
+      {!ex.say && ex.lang === "en-US" ? <Tr en={ex.stem} /> : null}
       <View style={s.answer}>
         {picked.map((id) => (
           <Pressable key={id} onPress={() => toggle(id)} style={[s.tile, s.tilePicked]}>

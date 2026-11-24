@@ -1,0 +1,986 @@
+{
+"Complete the Words · Read in Daily Life": {
+"es": "Completar palabras · Leer textos de la vida diaria",
+"zh": "补全单词 · 阅读日常文本"
+},
+"Complete the word": {
+"es": "Completa la palabra",
+"zh": "补全单词"
+},
+"What is the main purpose of the notice?": {
+"es": "¿Cuál es el propósito principal del aviso?",
+"zh": "这则通知的主要目的是什么？"
+},
+"The notice opens by announcing free evening classes.": {
+"es": "El aviso comienza anunciando clases nocturnas gratuitas.",
+"zh": "通知开头就宣布了免费的晚间课程。"
+},
+"Notice": {
+"es": "Aviso",
+"zh": "通知"
+},
+"Riverside Community Center — Free evening classes start Monday, March 3. Choose from beginner cooking, digital photography, or English conversation practice. Classes meet twice a week for six weeks. Registration is open at the front desk until Friday at 5 p.m. A materials fee of $15 is required for cooking and photography. Bring a valid ID when you register. Parking is free behind the building after 6 p.m.": {
+"es": "Centro Comunitario Riverside — Las clases nocturnas gratuitas comienzan el lunes 3 de marzo. Elige entre cocina para principiantes, fotografía digital o práctica de conversación en inglés. Las clases son dos veces por semana durante seis semanas. La inscripción está abierta en recepción hasta el viernes a las 5 p. m. Para cocina y fotografía se exige un pago de $15 por materiales. Trae una identificación válida al inscribirte. El estacionamiento es gratuito detrás del edificio después de las 6 p. m.",
+"zh": "里弗赛德社区中心——免费晚间课程将于 3 月 3 日（周一）开始。可选择初级烹饪、数码摄影或英语会话练习。每周上课两次，共六周。前台报名开放至周五下午 5 点。烹饪和摄影需缴纳 15 美元材料费。报名时请携带有效证件。晚上 6 点以后，楼后停车免费。"
+},
+"To announce new parking rules": {
+"es": "Anunciar nuevas normas de estacionamiento",
+"zh": "宣布新的停车规定"
+},
+"To advertise free evening classes": {
+"es": "Promocionar clases nocturnas gratuitas",
+"zh": "宣传免费的晚间课程"
+},
+"To ask for volunteers": {
+"es": "Pedir voluntarios",
+"zh": "征集志愿者"
+},
+"To report a schedule change": {
+"es": "Informar un cambio de horario",
+"zh": "通知日程变更"
+},
+"What must people do to register?": {
+"es": "¿Qué deben hacer las personas para inscribirse?",
+"zh": "人们要报名必须做什么？"
+},
+"Registration is at the front desk, and a valid ID is required.": {
+"es": "La inscripción es en recepción y se exige una identificación válida.",
+"zh": "报名在前台办理，并且需要有效证件。"
+},
+"Call the center on Friday": {
+"es": "Llamar al centro el viernes",
+"zh": "周五给中心打电话"
+},
+"Pay $15 online": {
+"es": "Pagar $15 en línea",
+"zh": "在线支付 15 美元"
+},
+"Go to the front desk and bring ID": {
+"es": "Ir a recepción y llevar identificación",
+"zh": "到前台并带上证件"
+},
+"Attend the first class": {
+"es": "Asistir a la primera clase",
+"zh": "参加第一节课"
+},
+"Which class does NOT require a materials fee?": {
+"es": "¿Qué clase NO exige pago por materiales?",
+"zh": "哪门课不需要缴纳材料费？"
+},
+"The $15 fee applies only to cooking and photography.": {
+"es": "Los $15 se aplican solo a cocina y fotografía.",
+"zh": "15 美元只适用于烹饪和摄影。"
+},
+"Beginner cooking": {
+"es": "Cocina para principiantes",
+"zh": "初级烹饪"
+},
+"Digital photography": {
+"es": "Fotografía digital",
+"zh": "数码摄影"
+},
+"English conversation practice": {
+"es": "Práctica de conversación en inglés",
+"zh": "英语会话练习"
+},
+"All of them": {
+"es": "Todas",
+"zh": "全部都需要"
+},
+"Why is Maya writing to the professor?": {
+"es": "¿Por qué Maya le escribe al profesor?",
+"zh": "玛雅为什么给教授写信？"
+},
+"She will miss the lab and wants to collect the lab sheet.": {
+"es": "Faltará al laboratorio y quiere recoger la hoja de laboratorio.",
+"zh": "她会缺席实验课，想去拿实验单。"
+},
+"Email": {
+"es": "Correo",
+"zh": "电子邮件"
+},
+"From: Maya Torres\nTo: Prof. Allen\nSubject: Missing Thursday's lab\n\nDear Professor Allen,\nI'm writing to let you know that I will miss Thursday's lab because I have a dental appointment that I could not reschedule. I have already read the experiment instructions and can complete the data analysis at home. Could I come to your office hours on Friday to collect the lab sheet and ask a few questions?\nThank you for your understanding.\nBest regards,\nMaya": {
+"es": "De: Maya Torres\nPara: Prof. Allen\nAsunto: Ausencia al laboratorio del jueves\n\nEstimado profesor Allen:\nLe escribo para avisarle que faltaré al laboratorio del jueves porque tengo una cita con el dentista que no pude reprogramar. Ya leí las instrucciones del experimento y puedo hacer el análisis de datos en casa. ¿Podría ir a su horario de atención el viernes para recoger la hoja de laboratorio y hacerle algunas preguntas?\nGracias por su comprensión.\nSaludos cordiales,\nMaya",
+"zh": "发件人：玛雅·托雷斯\n收件人：艾伦教授\n主题：缺席周四的实验课\n\n尊敬的艾伦教授：\n我写信是想告诉您，我周四无法参加实验课，因为我有一个无法改期的牙科预约。我已经读过实验说明，可以在家完成数据分析。请问我周五可以到您的答疑时间去取实验单并问几个问题吗？\n感谢您的理解。\n此致\n敬礼\n玛雅"
+},
+"To complain about the lab": {
+"es": "Quejarse del laboratorio",
+"zh": "抱怨实验课"
+},
+"To explain an absence and ask for help": {
+"es": "Explicar una ausencia y pedir ayuda",
+"zh": "说明缺席并请求帮助"
+},
+"To change her major": {
+"es": "Cambiar de carrera",
+"zh": "更换专业"
+},
+"To ask for a longer deadline": {
+"es": "Pedir un plazo más largo",
+"zh": "请求延长截止日期"
+},
+"What does Maya suggest?": {
+"es": "¿Qué propone Maya?",
+"zh": "玛雅提出了什么建议？"
+},
+"She asks to come to office hours on Friday.": {
+"es": "Pide ir al horario de atención el viernes.",
+"zh": "她请求周五去答疑时间。"
+},
+"Doing the lab on Saturday": {
+"es": "Hacer el laboratorio el sábado",
+"zh": "周六做实验"
+},
+"Visiting office hours on Friday": {
+"es": "Ir al horario de atención el viernes",
+"zh": "周五去答疑时间"
+},
+"Sending a friend": {
+"es": "Enviar a un amigo",
+"zh": "派一个朋友去"
+},
+"Skipping the data analysis": {
+"es": "Omitir el análisis de datos",
+"zh": "跳过数据分析"
+},
+"Listen and Choose a Response · Listen to a Conversation": {
+"es": "Escuchar y elegir una respuesta · Escuchar una conversación",
+"zh": "听后选择应答 · 听对话"
+},
+"Choose the best response.": {
+"es": "Elige la mejor respuesta.",
+"zh": "选择最恰当的回答。"
+},
+"\"Excuse me, do you know when the next shuttle to campus leaves?\" → \"It leaves in about ten minutes.\"": {
+"es": "«Disculpe, ¿sabe cuándo sale el próximo autobús al campus?» → «Sale en unos diez minutos.»",
+"zh": "“打扰一下，您知道下一班去校园的班车几点开吗？”→“大约十分钟后开。”"
+},
+"Excuse me, do you know when the next shuttle to campus leaves?": {
+"es": "Disculpe, ¿sabe cuándo sale el próximo autobús al campus?",
+"zh": "打扰一下，您知道下一班去校园的班车几点开吗？"
+},
+"It leaves in about ten minutes.": {
+"es": "Sale en unos diez minutos.",
+"zh": "大约十分钟后开。"
+},
+"I walked to campus yesterday.": {
+"es": "Ayer fui caminando al campus.",
+"zh": "我昨天走路去了校园。"
+},
+"The shuttle is very comfortable.": {
+"es": "El autobús es muy cómodo.",
+"zh": "班车很舒服。"
+},
+"Yes, I know the driver.": {
+"es": "Sí, conozco al conductor.",
+"zh": "是的，我认识司机。"
+},
+"\"I can't believe the library is closing early today.\" → \"Me neither. Should we study at the café instead?\"": {
+"es": "«No puedo creer que la biblioteca cierre temprano hoy.» → «Yo tampoco. ¿Estudiamos en la cafetería?»",
+"zh": "“真不敢相信图书馆今天提前关门。”→“我也是。我们去咖啡馆学习吧？”"
+},
+"I can't believe the library is closing early today.": {
+"es": "No puedo creer que la biblioteca cierre temprano hoy.",
+"zh": "真不敢相信图书馆今天提前关门。"
+},
+"Me neither. Should we study at the café instead?": {
+"es": "Yo tampoco. ¿Estudiamos en la cafetería?",
+"zh": "我也是。我们去咖啡馆学习吧？"
+},
+"I borrowed three books.": {
+"es": "Tomé prestados tres libros.",
+"zh": "我借了三本书。"
+},
+"It is on the second floor.": {
+"es": "Está en el segundo piso.",
+"zh": "在二楼。"
+},
+"Yes, it opens at nine.": {
+"es": "Sí, abre a las nueve.",
+"zh": "是的，九点开门。"
+},
+"\"Would you mind if I opened the window?\" → \"Not at all, it's a bit warm in here.\"": {
+"es": "«¿Le molesta si abro la ventana?» → «Para nada, hace un poco de calor aquí.»",
+"zh": "“您介意我开窗吗？”→“不介意，这里有点热。”"
+},
+"Would you mind if I opened the window?": {
+"es": "¿Le molesta si abro la ventana?",
+"zh": "您介意我开窗吗？"
+},
+"Not at all, it's a bit warm in here.": {
+"es": "Para nada, hace un poco de calor aquí.",
+"zh": "不介意，这里有点热。"
+},
+"I opened it yesterday.": {
+"es": "Ayer la abrí.",
+"zh": "我昨天开过了。"
+},
+"The window is new.": {
+"es": "La ventana es nueva.",
+"zh": "这扇窗是新的。"
+},
+"Yes, I would like some water.": {
+"es": "Sí, quisiera un poco de agua.",
+"zh": "是的，我想要点水。"
+},
+"\"How did your presentation go?\" → \"Better than I expected, thanks.\"": {
+"es": "«¿Cómo te fue en la presentación?» → «Mejor de lo que esperaba, gracias.»",
+"zh": "“你的报告做得怎么样？”→“比我预想的好，谢谢。”"
+},
+"How did your presentation go?": {
+"es": "¿Cómo te fue en la presentación?",
+"zh": "你的报告做得怎么样？"
+},
+"Better than I expected, thanks.": {
+"es": "Mejor de lo que esperaba, gracias.",
+"zh": "比我预想的好，谢谢。"
+},
+"I presented it on a screen.": {
+"es": "La presenté en una pantalla.",
+"zh": "我在屏幕上展示的。"
+},
+"It is about biology.": {
+"es": "Es sobre biología.",
+"zh": "是关于生物学的。"
+},
+"At two o'clock.": {
+"es": "A las dos en punto.",
+"zh": "两点整。"
+},
+"\"Have you finished the lab report yet?\" → \"Almost. I just need to write the conclusion.\"": {
+"es": "«¿Ya terminaste el informe de laboratorio?» → «Casi. Solo me falta escribir la conclusión.»",
+"zh": "“实验报告写完了吗？”→“差不多了，只剩下写结论。”"
+},
+"Have you finished the lab report yet?": {
+"es": "¿Ya terminaste el informe de laboratorio?",
+"zh": "实验报告写完了吗？"
+},
+"Almost. I just need to write the conclusion.": {
+"es": "Casi. Solo me falta escribir la conclusión.",
+"zh": "差不多了，只剩下写结论。"
+},
+"The lab is closed on Sunday.": {
+"es": "El laboratorio cierra los domingos.",
+"zh": "实验室周日关门。"
+},
+"I reported it to the office.": {
+"es": "Lo informé en la oficina.",
+"zh": "我向办公室报告了。"
+},
+"No, I don't like labs.": {
+"es": "No, no me gustan los laboratorios.",
+"zh": "不，我不喜欢实验课。"
+},
+"Why does the student visit the office?": {
+"es": "¿Por qué el estudiante va a la oficina?",
+"zh": "这名学生为什么去办公室？"
+},
+"He says he is there about a parking permit.": {
+"es": "Dice que va por un permiso de estacionamiento.",
+"zh": "他说他是来办停车证的。"
+},
+"Student: Hi, I'm here about a parking permit. Staff: Sure. Are you a commuter, or do you live on campus? Student: I commute from about twenty minutes away. Staff: Then you'll need the Zone B permit. It costs one hundred twenty dollars for the semester, and you can pay online. Student: Can I get it today? Staff: The system updates overnight, so you can pick it up tomorrow morning.": {
+"es": "Estudiante: Hola, vengo por un permiso de estacionamiento. Personal: Claro. ¿Viaja todos los días o vive en el campus? Estudiante: Viajo todos los días desde unos veinte minutos de distancia. Personal: Entonces necesita el permiso de la Zona B. Cuesta ciento veinte dólares por semestre y puede pagarlo en línea. Estudiante: ¿Puedo tenerlo hoy? Personal: El sistema se actualiza por la noche, así que puede recogerlo mañana por la mañana.",
+"zh": "学生：你好，我来办停车证。\n工作人员：好的。您是通勤的，还是住在校园里？\n学生：我通勤，从大约二十分钟路程的地方过来。\n工作人员：那您需要 B 区停车证。每学期一百二十美元，可以在线支付。\n学生：今天能拿到吗？\n工作人员：系统在夜间更新，所以您明天上午可以来领取。"
+},
+"To pay a fine": {
+"es": "Pagar una multa",
+"zh": "缴纳罚款"
+},
+"To get a parking permit": {
+"es": "Obtener un permiso de estacionamiento",
+"zh": "办理停车证"
+},
+"To change dorms": {
+"es": "Cambiar de residencia estudiantil",
+"zh": "更换宿舍"
+},
+"To ask about a bus route": {
+"es": "Preguntar por una ruta de autobús",
+"zh": "询问公交路线"
+},
+"What is true about the Zone B permit?": {
+"es": "¿Qué es cierto sobre el permiso de la Zona B?",
+"zh": "关于 B 区停车证，哪项是正确的？"
+},
+"Zone B costs one hundred twenty dollars for the semester, payable online.": {
+"es": "La Zona B cuesta ciento veinte dólares por semestre y se paga en línea.",
+"zh": "B 区每学期一百二十美元，可在线支付。"
+},
+"It is free for commuters": {
+"es": "Es gratis para quienes viajan todos los días",
+"zh": "对通勤者免费"
+},
+"It costs $120 per semester": {
+"es": "Cuesta $120 por semestre",
+"zh": "每学期 120 美元"
+},
+"It is only for dorm residents": {
+"es": "Es solo para residentes de las residencias",
+"zh": "只供住宿生使用"
+},
+"It must be paid in person": {
+"es": "Debe pagarse en persona",
+"zh": "必须当面支付"
+},
+"When can the student pick up the permit?": {
+"es": "¿Cuándo puede recoger el permiso el estudiante?",
+"zh": "学生什么时候可以领取停车证？"
+},
+"The system updates overnight.": {
+"es": "El sistema se actualiza por la noche.",
+"zh": "系统在夜间更新。"
+},
+"Today": {
+"es": "Hoy",
+"zh": "今天"
+},
+"Tomorrow morning": {
+"es": "Mañana por la mañana",
+"zh": "明天上午"
+},
+"Next week": {
+"es": "La próxima semana",
+"zh": "下周"
+},
+"After the semester": {
+"es": "Después del semestre",
+"zh": "学期结束后"
+},
+"Build a Sentence · Write an Email": {
+"es": "Armar una oración · Escribir un correo",
+"zh": "组句 · 写电子邮件"
+},
+"Where did you park?": {
+"es": "¿Dónde estacionaste?",
+"zh": "你把车停在哪儿了？"
+},
+"I parked behind the library": {
+"es": "Estacioné detrás de la biblioteca",
+"zh": "我把车停在图书馆后面"
+},
+"What did the professor say?": {
+"es": "¿Qué dijo el profesor?",
+"zh": "教授说了什么？"
+},
+"She said the exam is on Friday": {
+"es": "Ella dijo que el examen es el viernes",
+"zh": "她说考试在周五"
+},
+"Why were you late?": {
+"es": "¿Por qué llegaste tarde?",
+"zh": "你为什么迟到？"
+},
+"My bus was delayed by the snow": {
+"es": "Mi autobús se retrasó por la nieve",
+"zh": "我的公交车因下雪晚点了"
+},
+"Can you help me with the assignment?": {
+"es": "¿Puedes ayudarme con la tarea?",
+"zh": "你能帮我做作业吗？"
+},
+"Of course I can help you after class": {
+"es": "Claro que puedo ayudarte después de clase",
+"zh": "当然可以，下课后我帮你"
+},
+"What are you studying this term?": {
+"es": "¿Qué estás estudiando este semestre?",
+"zh": "这学期你在学什么？"
+},
+"I am studying environmental science": {
+"es": "Estoy estudiando ciencias ambientales",
+"zh": "我在学环境科学"
+},
+"Do you know where the lab is?": {
+"es": "¿Sabes dónde está el laboratorio?",
+"zh": "你知道实验室在哪儿吗？"
+},
+"I think it is on the second floor": {
+"es": "Creo que está en el segundo piso",
+"zh": "我想它在二楼"
+},
+"Your professor posted a reading list that is too long to finish before the exam. Write an email to your professor. Explain the problem and ask for a suggestion.": {
+"es": "Tu profesor publicó una lista de lecturas demasiado larga para terminarla antes del examen. Escribe un correo a tu profesor. Explica el problema y pide una sugerencia.",
+"zh": "你的教授发布了一份阅读书目，在考试前根本读不完。请给教授写一封电子邮件，说明问题并请求建议。"
+},
+"Write at least 50 words. Use a greeting, a clear request and a polite closing.": {
+"es": "Escribe al menos 50 palabras. Usa un saludo, una petición clara y una despedida cortés.",
+"zh": "至少写 50 个单词。要有问候语、明确的请求和礼貌的结束语。"
+},
+"Dear Professor Lee,\nI am writing about the reading list for the final exam. I am worried that it is too long for me to finish in the time that remains, because I also have two other exams that week. Could you please tell me which readings are the most important, or suggest a way to prioritize them?\nThank you very much for your help.\nSincerely,\nAna Silva": {
+"es": "Estimada profesora Lee:\nLe escribo por la lista de lecturas del examen final. Me preocupa que sea demasiado larga para terminarla en el tiempo que queda, porque además tengo otros dos exámenes esa semana. ¿Podría decirme cuáles son las lecturas más importantes o sugerirme una forma de priorizarlas?\nMuchas gracias por su ayuda.\nAtentamente,\nAna Silva",
+"zh": "尊敬的李教授：\n我写信是想谈谈期末考试的阅读书目。我担心书目太长，在剩下的时间里读不完，因为那一周我还有另外两门考试。能否请您告诉我哪些阅读材料最重要，或者建议我如何安排优先顺序？\n非常感谢您的帮助。\n此致\n敬礼\n安娜·席尔瓦"
+},
+"Greeting (Dear / Hello)": {
+"es": "Saludo (Dear / Hello)",
+"zh": "问候语（Dear / Hello）"
+},
+"Explains the problem": {
+"es": "Explica el problema",
+"zh": "说明问题"
+},
+"Polite request (could / would / may)": {
+"es": "Petición cortés (could / would / may)",
+"zh": "礼貌的请求（could / would / may）"
+},
+"Closing (Sincerely / Best regards / Thank you)": {
+"es": "Despedida (Sincerely / Best regards / Thank you)",
+"zh": "结束语（Sincerely / Best regards / Thank you）"
+},
+"Listen and Repeat · Take an Interview": {
+"es": "Escuchar y repetir · Hacer una entrevista",
+"zh": "听后复述 · 面试"
+},
+"The library will be open until midnight during exam week.": {
+"es": "La biblioteca estará abierta hasta medianoche durante la semana de exámenes.",
+"zh": "考试周期间，图书馆开放到午夜。"
+},
+"Please submit your assignment before the deadline.": {
+"es": "Por favor, entrega tu tarea antes de la fecha límite.",
+"zh": "请在截止日期前提交作业。"
+},
+"I would like to schedule an appointment with my advisor.": {
+"es": "Me gustaría programar una cita con mi asesor.",
+"zh": "我想和我的导师预约一次会面。"
+},
+"The experiment showed that temperature affects growth.": {
+"es": "El experimento mostró que la temperatura afecta el crecimiento.",
+"zh": "实验表明，温度会影响生长。"
+},
+"Students can borrow up to ten books at a time.": {
+"es": "Los estudiantes pueden llevarse hasta diez libros a la vez.",
+"zh": "学生一次最多可以借十本书。"
+},
+"She decided to take a different approach to the problem.": {
+"es": "Decidió adoptar un enfoque distinto para el problema.",
+"zh": "她决定用不同的方法来处理这个问题。"
+},
+"Tell me about a place in your hometown that you enjoy visiting. Why do you like it?": {
+"es": "Cuéntame sobre un lugar de tu ciudad natal que disfrutes visitar. ¿Por qué te gusta?",
+"zh": "请谈谈你家乡里你喜欢去的一个地方。你为什么喜欢它？"
+},
+"There is a small park near my house that I visit every weekend. I like it because it is quiet and full of trees, so I can relax after a busy week. For example, last Sunday I read a book there for two hours.": {
+"es": "Hay un pequeño parque cerca de mi casa que visito todos los fines de semana. Me gusta porque es tranquilo y está lleno de árboles, así que puedo relajarme después de una semana ocupada. Por ejemplo, el domingo pasado leí un libro allí durante dos horas.",
+"zh": "我家附近有一个小公园，我每个周末都去。我喜欢它，因为那里安静、树木繁茂，忙碌一周之后可以放松一下。例如，上个星期天我在那里读了两个小时的书。"
+},
+"Names a specific place": {
+"es": "Nombra un lugar concreto",
+"zh": "点出一个具体的地方"
+},
+"Gives a reason": {
+"es": "Da una razón",
+"zh": "给出理由"
+},
+"Adds a detail or example": {
+"es": "Añade un detalle o ejemplo",
+"zh": "补充细节或例子"
+},
+"Do you prefer studying alone or with a group? Explain your choice.": {
+"es": "¿Prefieres estudiar solo o en grupo? Explica tu elección.",
+"zh": "你更喜欢独自学习还是小组学习？请解释你的选择。"
+},
+"I prefer studying alone because I can concentrate better and move at my own speed. However, I sometimes join a group before an exam, since explaining ideas to friends helps me remember them.": {
+"es": "Prefiero estudiar solo porque puedo concentrarme mejor y avanzar a mi propio ritmo. Sin embargo, a veces me uno a un grupo antes de un examen, ya que explicar las ideas a mis amigos me ayuda a recordarlas.",
+"zh": "我更喜欢独自学习，因为这样我能更专心，也能按自己的节奏前进。不过，考试前我有时会加入小组，因为向朋友解释想法有助于我记住它们。"
+},
+"States a preference": {
+"es": "Expresa una preferencia",
+"zh": "表明偏好"
+},
+"Contrasts with the other option": {
+"es": "Contrasta con la otra opción",
+"zh": "与另一种选择作对比"
+},
+"Describe a skill you would like to learn and explain why.": {
+"es": "Describe una habilidad que te gustaría aprender y explica por qué.",
+"zh": "描述一项你想学的技能，并解释原因。"
+},
+"I would like to learn to play the guitar because music helps me relax. I plan to practice twenty minutes every day and take online lessons, so that I can play a few songs by the end of the year.": {
+"es": "Me gustaría aprender a tocar la guitarra porque la música me ayuda a relajarme. Planeo practicar veinte minutos al día y tomar clases en línea, para poder tocar algunas canciones a fin de año.",
+"zh": "我想学弹吉他，因为音乐能帮我放松。我打算每天练习二十分钟并上网课，这样到年底我就能弹几首曲子了。"
+},
+"Names a skill": {
+"es": "Nombra una habilidad",
+"zh": "说出一项技能"
+},
+"Mentions a plan": {
+"es": "Menciona un plan",
+"zh": "提到一个计划"
+},
+"Read an Academic Passage": {
+"es": "Leer un texto académico",
+"zh": "阅读学术文章"
+},
+"What does the length of the straight section of the dance indicate?": {
+"es": "¿Qué indica la longitud de la sección recta del baile?",
+"zh": "舞蹈中直线部分的长度表示什么？"
+},
+"The passage says the length of that section shows the distance.": {
+"es": "El texto dice que la longitud de esa sección muestra la distancia.",
+"zh": "文章说，该部分的长度表示距离。"
+},
+"Honeybees": {
+"es": "Las abejas",
+"zh": "蜜蜂"
+},
+"Honeybees communicate the location of food through a movement known as the waggle dance. When a forager finds a rich source of nectar, she returns to the hive and moves in a figure-eight pattern on the honeycomb. The angle of the straight middle section shows the direction of the food relative to the sun, while the length of that section shows the distance. Other bees follow the dancer closely, touching her with their antennae to learn the information. Researchers once doubted that insects could share such detailed messages, but experiments in which scientists moved feeding stations confirmed that nestmates arrived at the correct places.": {
+"es": "Las abejas melíferas comunican la ubicación del alimento mediante un movimiento conocido como la danza de la cola. Cuando una recolectora encuentra una fuente rica de néctar, regresa a la colmena y se mueve formando un ocho sobre el panal. El ángulo de la sección recta central indica la dirección del alimento respecto al sol, mientras que la longitud de esa sección indica la distancia. Las otras abejas siguen de cerca a la bailarina y la tocan con sus antenas para captar la información. Antes se dudaba de que los insectos pudieran compartir mensajes tan detallados, pero experimentos en los que los científicos movieron los comederos confirmaron que sus compañeras llegaban a los lugares correctos.",
+"zh": "蜜蜂通过一种叫作“摇摆舞”的动作来传达食物的位置。当一只采蜜蜂发现丰富的花蜜来源后，会回到蜂巢，在蜂房上以“8”字形移动。中间直线部分的角度表示食物相对于太阳的方向，而这一段的长度表示距离。其他蜜蜂紧紧跟随舞者，并用触角触碰她来获取信息。研究人员曾怀疑昆虫能否传递如此详细的信息，但科学家移动喂食点的实验证实，同巢的蜜蜂都到达了正确的地点。"
+},
+"The type of flower": {
+"es": "El tipo de flor",
+"zh": "花的种类"
+},
+"The distance to the food": {
+"es": "La distancia hasta el alimento",
+"zh": "到食物的距离"
+},
+"The number of bees needed": {
+"es": "El número de abejas necesarias",
+"zh": "所需蜜蜂的数量"
+},
+"The time of day": {
+"es": "La hora del día",
+"zh": "一天中的时间"
+},
+"The word \"forager\" in the passage is closest in meaning to a bee that": {
+"es": "La palabra \"forager\" del texto se acerca más en significado a una abeja que",
+"zh": "文中的 “forager” 在意思上最接近于这样一只蜜蜂："
+},
+"A forager finds nectar and returns to the hive.": {
+"es": "Una recolectora (forager) encuentra néctar y vuelve a la colmena.",
+"zh": "采蜜蜂（forager）发现花蜜后返回蜂巢。"
+},
+"builds the honeycomb": {
+"es": "construye el panal",
+"zh": "建造蜂房"
+},
+"searches for food": {
+"es": "busca alimento",
+"zh": "寻找食物"
+},
+"guards the hive": {
+"es": "vigila la colmena",
+"zh": "守卫蜂巢"
+},
+"produces honey": {
+"es": "produce miel",
+"zh": "酿造蜂蜜"
+},
+"What can be inferred from the experiments with feeding stations?": {
+"es": "¿Qué se puede inferir de los experimentos con los comederos?",
+"zh": "从喂食点的实验中可以推断出什么？"
+},
+"Nestmates arrived at the correct places after the stations were moved.": {
+"es": "Las compañeras llegaron a los lugares correctos tras mover los comederos.",
+"zh": "喂食点移动之后，同巢的蜜蜂仍到达了正确的地点。"
+},
+"Bees prefer moving food": {
+"es": "Las abejas prefieren el alimento en movimiento",
+"zh": "蜜蜂更喜欢移动的食物"
+},
+"The dance passes on accurate information": {
+"es": "La danza transmite información precisa",
+"zh": "舞蹈能传递准确的信息"
+},
+"Bees ignore the sun": {
+"es": "Las abejas ignoran el sol",
+"zh": "蜜蜂不理会太阳"
+},
+"Only some bees can dance": {
+"es": "Solo algunas abejas pueden bailar",
+"zh": "只有一部分蜜蜂会跳舞"
+},
+"What is the main idea of the passage?": {
+"es": "¿Cuál es la idea principal del texto?",
+"zh": "这篇文章的主旨是什么？"
+},
+"The passage explains causes and then solutions.": {
+"es": "El texto explica las causas y luego las soluciones.",
+"zh": "文章先解释原因，然后介绍解决办法。"
+},
+"Urban heat": {
+"es": "Calor urbano",
+"zh": "城市热岛"
+},
+"Cities are often several degrees warmer than the surrounding countryside, a phenomenon called the urban heat island effect. Dark surfaces such as asphalt and roofs absorb sunlight and release it slowly as heat after sunset. In addition, buildings block wind, and the lack of vegetation reduces the cooling that normally occurs when plants release water vapor. Planners have responded in several ways. Some cities paint roofs white, others plant trees along streets, and a few are building green roofs covered with soil and plants. Although these measures cost money, studies suggest that they lower energy use for air conditioning, which can offset the expense over time.": {
+"es": "Las ciudades suelen ser varios grados más cálidas que el campo que las rodea, un fenómeno llamado efecto de isla de calor urbana. Las superficies oscuras, como el asfalto y los techos, absorben la luz solar y la liberan lentamente en forma de calor después del atardecer. Además, los edificios bloquean el viento, y la falta de vegetación reduce el enfriamiento que normalmente ocurre cuando las plantas liberan vapor de agua. Los urbanistas han respondido de varias maneras. Algunas ciudades pintan los techos de blanco, otras plantan árboles a lo largo de las calles y unas pocas construyen techos verdes cubiertos de tierra y plantas. Aunque estas medidas cuestan dinero, los estudios sugieren que reducen el consumo de energía del aire acondicionado, lo que puede compensar el gasto con el tiempo.",
+"zh": "城市往往比周围的乡村高出几度，这种现象称为城市热岛效应。沥青和屋顶等深色表面会吸收阳光，并在日落后缓慢地以热量形式释放出来。此外，建筑物会阻挡风，而植被的缺乏也减少了植物释放水蒸气时通常产生的降温作用。规划者采取了多种应对措施：有些城市把屋顶漆成白色，有些在街道两旁植树，还有少数城市正在建造铺满土壤和植物的绿色屋顶。虽然这些措施需要花钱，但研究表明它们能降低空调的能耗，从长远看可以抵消这笔开支。"
+},
+"Trees are expensive to plant": {
+"es": "Plantar árboles es caro",
+"zh": "种树很昂贵"
+},
+"Cities are warmer than nearby rural areas for several reasons, and planners can reduce the effect": {
+"es": "Las ciudades son más cálidas que las zonas rurales cercanas por varias razones, y los urbanistas pueden reducir el efecto",
+"zh": "城市比附近的乡村更热有多种原因，规划者可以减轻这种效应"
+},
+"Air conditioning should be banned": {
+"es": "Habría que prohibir el aire acondicionado",
+"zh": "应该禁止使用空调"
+},
+"Wind always cools cities": {
+"es": "El viento siempre enfría las ciudades",
+"zh": "风总是能给城市降温"
+},
+"Why do asphalt surfaces make cities hotter?": {
+"es": "¿Por qué las superficies de asfalto hacen que las ciudades sean más calurosas?",
+"zh": "为什么沥青路面会让城市更热？"
+},
+"They absorb sunlight and release it as heat after sunset.": {
+"es": "Absorben la luz solar y la liberan como calor después del atardecer.",
+"zh": "它们吸收阳光，并在日落后以热量的形式释放出来。"
+},
+"They block the wind": {
+"es": "Bloquean el viento",
+"zh": "它们阻挡风"
+},
+"They absorb sunlight and release heat slowly": {
+"es": "Absorben la luz solar y liberan el calor lentamente",
+"zh": "它们吸收阳光并缓慢释放热量"
+},
+"They reduce plant growth": {
+"es": "Reducen el crecimiento de las plantas",
+"zh": "它们抑制植物生长"
+},
+"They reflect sunlight": {
+"es": "Reflejan la luz solar",
+"zh": "它们反射阳光"
+},
+"The word \"offset\" in the passage is closest in meaning to": {
+"es": "La palabra \"offset\" del texto se acerca más en significado a",
+"zh": "文中的 “offset” 在意思上最接近于"
+},
+"Savings in energy can balance out the cost.": {
+"es": "El ahorro de energía puede compensar el costo.",
+"zh": "节省下来的能源可以抵消成本。"
+},
+"increase": {
+"es": "aumentar",
+"zh": "增加"
+},
+"balance out": {
+"es": "compensar",
+"zh": "抵消"
+},
+"delay": {
+"es": "retrasar",
+"zh": "推迟"
+},
+"measure": {
+"es": "medir",
+"zh": "测量"
+},
+"Listen to an Announcement · Listen to an Academic Talk": {
+"es": "Escuchar un anuncio · Escuchar una charla académica",
+"zh": "听通知 · 听学术讲座"
+},
+"What is the announcement mainly about?": {
+"es": "¿De qué trata principalmente el anuncio?",
+"zh": "这则通知主要讲的是什么？"
+},
+"Route 4 will use Fifth Avenue because of construction.": {
+"es": "La ruta 4 usará la Quinta Avenida por obras.",
+"zh": "由于施工，4 号线将改走第五大道。"
+},
+"Attention, passengers on the university shuttle. Due to construction on Maple Street, the Route 4 shuttle will use Fifth Avenue until further notice. Please allow an extra ten minutes of travel time. The stop in front of the science building will be temporarily closed. Students can board at the new stop beside the bookstore instead.": {
+"es": "Atención, pasajeros del autobús universitario. Debido a obras en la calle Maple, el autobús de la ruta 4 usará la Quinta Avenida hasta nuevo aviso. Por favor, calculen diez minutos adicionales de viaje. La parada frente al edificio de ciencias estará cerrada temporalmente. En su lugar, los estudiantes pueden subir en la nueva parada junto a la librería.",
+"zh": "各位乘坐校车的乘客请注意。由于枫树街施工，4 号线校车在另行通知前将改走第五大道。请预留多十分钟的行程时间。科学楼前的站点将暂时关闭。学生可改在书店旁边的新站点上车。"
+},
+"A new shuttle fare": {
+"es": "Una nueva tarifa del autobús",
+"zh": "校车的新票价"
+},
+"A change in the shuttle route": {
+"es": "Un cambio en la ruta del autobús",
+"zh": "校车路线的变更"
+},
+"A bookstore sale": {
+"es": "Una oferta de la librería",
+"zh": "书店的促销"
+},
+"A road race": {
+"es": "Una carrera callejera",
+"zh": "一场公路赛跑"
+},
+"Where should students board instead of the science building stop?": {
+"es": "¿Dónde deben subir los estudiantes en lugar de la parada del edificio de ciencias?",
+"zh": "学生应在哪里上车来代替科学楼前的站点？"
+},
+"The new stop is beside the bookstore.": {
+"es": "La nueva parada está junto a la librería.",
+"zh": "新站点在书店旁边。"
+},
+"In front of the library": {
+"es": "Frente a la biblioteca",
+"zh": "图书馆前面"
+},
+"Beside the bookstore": {
+"es": "Junto a la librería",
+"zh": "书店旁边"
+},
+"On Maple Street": {
+"es": "En la calle Maple",
+"zh": "在枫树街"
+},
+"At the main gate": {
+"es": "En la puerta principal",
+"zh": "在正门"
+},
+"What is the talk mainly about?": {
+"es": "¿De qué trata principalmente la charla?",
+"zh": "这场讲座主要讲什么？"
+},
+"The speaker introduces camouflage in animals.": {
+"es": "El orador presenta el camuflaje en los animales.",
+"zh": "讲者介绍了动物的伪装。"
+},
+"Today I'd like to talk about camouflage in animals. Many species avoid predators by blending into their surroundings. The stick insect, for example, looks almost exactly like a twig. But camouflage isn't only about color. The cuttlefish can change both the color and the texture of its skin within a second, matching sand, rock, or seaweed. Scientists believe this ability is controlled directly by the animal's nervous system, not by hormones, which would act too slowly.": {
+"es": "Hoy quiero hablar del camuflaje en los animales. Muchas especies evitan a los depredadores mimetizándose con su entorno. El insecto palo, por ejemplo, se parece casi exactamente a una ramita. Pero el camuflaje no se trata solo del color. La sepia puede cambiar tanto el color como la textura de su piel en un segundo, imitando la arena, la roca o las algas. Los científicos creen que esta capacidad la controla directamente el sistema nervioso del animal y no las hormonas, que actuarían demasiado despacio.",
+"zh": "今天我想谈谈动物的伪装。许多物种通过融入周围环境来躲避捕食者。例如，竹节虫看起来几乎和一根小树枝一模一样。但伪装不仅仅是颜色的问题。乌贼能在一秒钟内同时改变皮肤的颜色和质地，模仿沙子、岩石或海藻。科学家认为，这种能力是由动物的神经系统直接控制的，而不是由激素控制，因为激素起作用太慢。"
+},
+"How animals use camouflage": {
+"es": "Cómo usan los animales el camuflaje",
+"zh": "动物如何利用伪装"
+},
+"How insects communicate": {
+"es": "Cómo se comunican los insectos",
+"zh": "昆虫如何交流"
+},
+"Why animals migrate": {
+"es": "Por qué migran los animales",
+"zh": "动物为什么迁徙"
+},
+"How skin heals": {
+"es": "Cómo cicatriza la piel",
+"zh": "皮肤如何愈合"
+},
+"Why does the professor mention the stick insect?": {
+"es": "¿Por qué menciona el profesor al insecto palo?",
+"zh": "教授为什么提到竹节虫？"
+},
+"It looks almost exactly like a twig.": {
+"es": "Se parece casi exactamente a una ramita.",
+"zh": "它看起来几乎和一根小树枝一模一样。"
+},
+"To show an animal that resembles its surroundings": {
+"es": "Para mostrar un animal que se parece a su entorno",
+"zh": "为了举例说明一种与环境相似的动物"
+},
+"To explain a hormone": {
+"es": "Para explicar una hormona",
+"zh": "为了解释一种激素"
+},
+"To compare it with the cuttlefish's speed": {
+"es": "Para compararlo con la velocidad de la sepia",
+"zh": "为了与乌贼的速度作比较"
+},
+"To describe an endangered species": {
+"es": "Para describir una especie en peligro de extinción",
+"zh": "为了描述一种濒危物种"
+},
+"Why do scientists think the cuttlefish's skin changes are controlled by the nervous system?": {
+"es": "¿Por qué creen los científicos que el sistema nervioso controla los cambios de la piel de la sepia?",
+"zh": "科学家为什么认为乌贼皮肤的变化是由神经系统控制的？"
+},
+"The change happens within a second, too fast for hormones.": {
+"es": "El cambio ocurre en un segundo, demasiado rápido para las hormonas.",
+"zh": "这种变化在一秒内完成，对激素来说太快了。"
+},
+"Hormones would work too slowly": {
+"es": "Las hormonas actuarían demasiado despacio",
+"zh": "激素起作用太慢"
+},
+"The skin has no color": {
+"es": "La piel no tiene color",
+"zh": "皮肤没有颜色"
+},
+"Cuttlefish cannot sense light": {
+"es": "Las sepias no perciben la luz",
+"zh": "乌贼感觉不到光"
+},
+"It happens only at night": {
+"es": "Solo ocurre de noche",
+"zh": "只在夜间发生"
+},
+"Write for an Academic Discussion": {
+"es": "Escribir para una discusión académica",
+"zh": "为学术讨论写作"
+},
+"Professor: Should universities require every student to take at least one foreign language course?": {
+"es": "Profesor: ¿Deberían las universidades exigir que todos los estudiantes tomen al menos un curso de lengua extranjera?",
+"zh": "教授：大学是否应该要求每位学生至少修一门外语课？"
+},
+"Student A: Yes. Languages build thinking skills and open job opportunities.\nStudent B: No. Required courses add stress. Students should choose what to study.\n\nAdd your own contribution to the discussion (at least 60 words).": {
+"es": "Estudiante A: Sí. Los idiomas desarrollan el pensamiento y abren oportunidades laborales.\nEstudiante B: No. Los cursos obligatorios generan estrés. Los estudiantes deberían elegir qué estudiar.\n\nAñade tu propia aportación a la discusión (al menos 60 palabras).",
+"zh": "学生 A：应该。语言能培养思维能力，也能带来更多就业机会。\n学生 B：不应该。必修课会增加压力。学生应该自己选择学什么。\n\n请为这场讨论补充你自己的观点（至少 60 个单词）。"
+},
+"I believe universities should require one foreign language course. Although Student B is right that required classes can be stressful, learning a language also teaches students to communicate with people from different cultures. For example, many employers value graduates who can work in international teams. Universities could reduce stress by offering several levels and flexible schedules.": {
+"es": "Creo que las universidades deberían exigir un curso de lengua extranjera. Aunque el estudiante B tiene razón en que las clases obligatorias pueden generar estrés, aprender un idioma también enseña a comunicarse con personas de otras culturas. Por ejemplo, muchos empleadores valoran a los egresados que pueden trabajar en equipos internacionales. Las universidades podrían reducir el estrés ofreciendo varios niveles y horarios flexibles.",
+"zh": "我认为大学应该要求学生修一门外语课。虽然学生 B 说得对，必修课可能会带来压力，但学习语言也能教会学生与来自不同文化的人交流。例如，许多雇主看重能够在国际团队中工作的毕业生。大学可以通过提供多个级别和灵活的时间安排来减轻压力。"
+},
+"Clear opinion (I think / I believe / In my opinion)": {
+"es": "Opinión clara (I think / I believe / In my opinion)",
+"zh": "观点明确（I think / I believe / In my opinion）"
+},
+"Reason or example (because / for example)": {
+"es": "Razón o ejemplo (because / for example)",
+"zh": "理由或例子（because / for example）"
+},
+"Responds to another view (however / although / while)": {
+"es": "Responde a otro punto de vista (however / although / while)",
+"zh": "回应其他观点（however / although / while）"
+},
+"The library closes at nine tonight.": {
+"es": "La biblioteca cierra esta noche a las nueve.",
+"zh": "图书馆今晚九点关门。"
+},
+"Please submit your assignment by Friday.": {
+"es": "Por favor, entrega tu tarea antes del viernes.",
+"zh": "请在周五之前提交作业。"
+},
+"Many students work part-time near campus.": {
+"es": "Muchos estudiantes trabajan a tiempo parcial cerca del campus.",
+"zh": "许多学生在校园附近做兼职。"
+},
+"The experiment produced surprising results.": {
+"es": "El experimento produjo resultados sorprendentes.",
+"zh": "这个实验产生了令人惊讶的结果。"
+},
+"Rainfall can affect how quickly crops grow.": {
+"es": "La lluvia puede afectar la rapidez con que crecen los cultivos.",
+"zh": "降雨会影响作物生长的速度。"
+},
+"She wants to improve her writing skills.": {
+"es": "Ella quiere mejorar sus habilidades de escritura.",
+"zh": "她想提高自己的写作能力。"
+},
+"Scientists ___ the data to find patterns.": {
+"es": "Los científicos analizan los datos para encontrar patrones.",
+"zh": "科学家分析数据以找出规律。"
+},
+"The team took a new ___ to the problem.": {
+"es": "El equipo adoptó un nuevo enfoque para el problema.",
+"zh": "团队用一种新方法来处理这个问题。"
+},
+"Don't ___ the answer is correct without checking.": {
+"es": "No des por cierta la respuesta sin comprobarla.",
+"zh": "不要不经检查就假定答案是对的。"
+},
+"Gravity is a difficult ___ for young children.": {
+"es": "La gravedad es un concepto difícil para los niños pequeños.",
+"zh": "重力对幼儿来说是一个很难理解的概念。"
+},
+"There is strong ___ that exercise improves memory.": {
+"es": "Hay pruebas sólidas de que el ejercicio mejora la memoria.",
+"zh": "有强有力的证据表明运动能改善记忆力。"
+},
+"Cost was the main ___ in her decision.": {
+"es": "El costo fue el factor principal en su decisión.",
+"zh": "费用是她做决定时的主要因素。"
+},
+"The study found a ___ increase in sales.": {
+"es": "El estudio encontró un aumento significativo de las ventas.",
+"zh": "研究发现销量显著增长。"
+},
+"It is hard to ___ interest in a very long lecture.": {
+"es": "Es difícil mantener el interés en una clase muy larga.",
+"zh": "在很长的讲座中很难保持兴趣。"
+},
+"Many English words ___ from Latin roots.": {
+"es": "Muchas palabras del inglés derivan de raíces latinas.",
+"zh": "许多英语单词源自拉丁语词根。"
+},
+"Engineers ___ that the bridge will take two years to build.": {
+"es": "Los ingenieros estiman que el puente tardará dos años en construirse.",
+"zh": "工程师估计这座桥需要两年才能建成。"
+},
+"The results ___ that the new method works.": {
+"es": "Los resultados indican que el nuevo método funciona.",
+"zh": "结果表明这种新方法是有效的。"
+},
+"Historians ___ old documents to understand the past.": {
+"es": "Los historiadores interpretan documentos antiguos para entender el pasado.",
+"zh": "历史学家解读古老的文献以了解过去。"
+},
+"Regular exercise helps you ___ a healthy weight.": {
+"es": "El ejercicio regular te ayuda a mantener un peso saludable.",
+"zh": "经常锻炼有助于你保持健康的体重。"
+},
+"The course will ___ weekly lab reports.": {
+"es": "El curso exigirá informes de laboratorio semanales.",
+"zh": "这门课程要求每周提交实验报告。"
+},
+"The ___ of the essay was clear and logical.": {
+"es": "La estructura del ensayo era clara y lógica.",
+"zh": "这篇文章的结构清晰而有逻辑。"
+},
+"Temperature was the only ___ in the experiment.": {
+"es": "La temperatura fue la única variable del experimento.",
+"zh": "温度是实验中唯一的变量。"
+},
+"Scientists analyze the data to find patterns.": {
+"es": "Los científicos analizan los datos para encontrar patrones.",
+"zh": "科学家分析数据以找出规律。"
+},
+"The team took a new approach to the problem.": {
+"es": "El equipo adoptó un nuevo enfoque para el problema.",
+"zh": "团队用一种新方法来处理这个问题。"
+},
+"Don't assume the answer is correct without checking.": {
+"es": "No des por cierta la respuesta sin comprobarla.",
+"zh": "不要不经检查就假定答案是对的。"
+},
+"Gravity is a difficult concept for young children.": {
+"es": "La gravedad es un concepto difícil para los niños pequeños.",
+"zh": "重力对幼儿来说是一个很难理解的概念。"
+},
+"There is strong evidence that exercise improves memory.": {
+"es": "Hay pruebas sólidas de que el ejercicio mejora la memoria.",
+"zh": "有强有力的证据表明运动能改善记忆力。"
+},
+"Cost was the main factor in her decision.": {
+"es": "El costo fue el factor principal en su decisión.",
+"zh": "费用是她做决定时的主要因素。"
+},
+"The study found a significant increase in sales.": {
+"es": "El estudio encontró un aumento significativo de las ventas.",
+"zh": "研究发现销量显著增长。"
+},
+"It is hard to sustain interest in a very long lecture.": {
+"es": "Es difícil mantener el interés en una clase muy larga.",
+"zh": "在很长的讲座中很难保持兴趣。"
+},
+"Many English words derive from Latin roots.": {
+"es": "Muchas palabras del inglés derivan de raíces latinas.",
+"zh": "许多英语单词源自拉丁语词根。"
+},
+"Engineers estimate that the bridge will take two years to build.": {
+"es": "Los ingenieros estiman que el puente tardará dos años en construirse.",
+"zh": "工程师估计这座桥需要两年才能建成。"
+},
+"The results indicate that the new method works.": {
+"es": "Los resultados indican que el nuevo método funciona.",
+"zh": "结果表明这种新方法是有效的。"
+},
+"Historians interpret old documents to understand the past.": {
+"es": "Los historiadores interpretan documentos antiguos para entender el pasado.",
+"zh": "历史学家解读古老的文献以了解过去。"
+},
+"Regular exercise helps you maintain a healthy weight.": {
+"es": "El ejercicio regular te ayuda a mantener un peso saludable.",
+"zh": "经常锻炼有助于你保持健康的体重。"
+},
+"The course will require weekly lab reports.": {
+"es": "El curso exigirá informes de laboratorio semanales.",
+"zh": "这门课程要求每周提交实验报告。"
+},
+"The structure of the essay was clear and logical.": {
+"es": "La estructura del ensayo era clara y lógica.",
+"zh": "这篇文章的结构清晰而有逻辑。"
+},
+"Temperature was the only variable in the experiment.": {
+"es": "La temperatura fue la única variable del experimento.",
+"zh": "温度是实验中唯一的变量。"
+}
+}

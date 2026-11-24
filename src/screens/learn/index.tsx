@@ -17,7 +17,7 @@ const NODE = 90;
 const HEADER = 128;
 
 export function Learn() {
-  const { t, l } = useT();
+  const { t, l, tl } = useT();
   const courseId = useApp((s) => s.courseId);
   const done = useApp((s) => s.done);
   const skipTo = useApp((s) => s.skipTo[courseId] ?? -1);
@@ -122,7 +122,7 @@ export function Learn() {
                   </Text>
                   {unit.subtitle ? (
                     <Text style={s.bannerSub} numberOfLines={1}>
-                      {unit.subtitle}
+                      {tl(unit.subtitle)}
                     </Text>
                   ) : null}
                 </View>
